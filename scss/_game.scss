@@ -1,0 +1,48 @@
+.title {
+  text-align: center;
+  color: $light;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  width: fit-content;
+  cursor: pointer;
+}
+
+.boardElement {
+  height: 30px;
+  width: 30px;
+  border: 1px solid $dark;
+}
+
+.whiteClass {
+  background-color: $light;
+}
+
+.redClass {
+  background-color: red;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: $font-family;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: $light;
+  color: $dark;
+}
+
+.custom {
+  background-color: #fff;
+}
